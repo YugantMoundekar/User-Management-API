@@ -1,2 +1,45 @@
-# User-Management-API
+<h2># User-Management-API</h2>
 You are tasked with developing a User Management API that includes features such as user  registration, login, user profile management, and OTP-based login. This API will serve as the backend  for a web application. Addionally, after a user successfully signs up, an email confirmation will be sent. 
+<hr>
+
+<p>
+<h3>Tech Stack: </h3>
+  <ol>
+    <li><b> Backend : </b> Node.js (Express.js)</li>
+    <li><b> Frontend : </b> React.js/Next.js </li>
+    <li><b> Database : </b> MongoDB (or any database of your choice) </li>
+    <li><b>Email Service : </b> Node-mailer (or any other suitable library)</li>
+  </ol>
+</p>
+<hr>
+<p>
+  <h3>Project Tasks: </h3>
+
+1️⃣ Backend Development: 
+ Use Node.js with Express.js to create the backend server. 
+ Design the database schema for users. 
+ Implement CRUD opera ons and endpoints for user management. 
+ Include secure user registra on and login func onality. 
+
+</p>
+
+2️⃣ User Registra on: 
+ Implement a signup endpoint that accepts user details and stores them securely in the 
+database. 
+ Generate and send an OTP (One-Time Password) to the user's email for verifica on. 
+
+3️⃣ OTP-Based Login: 
+ Create an endpoint for OTP-based login. 
+ Validate the received OTP and authen cate the user. 
+
+4️⃣ User Profile Management: 
+ Implement endpoints for fetching and upda ng user profiles. 
+
+5️⃣ Email Confirma on: 
+ Send a confirma on email to the user a er successful signup. 
+ Include a link or OTP for the user to confirm their email address. 
+
+6️⃣ Frontend Integra on: 
+ Create a React.js applica on that interacts with the backend API. 
+ Implement user interfaces for signup, login, profile management, etc. 
+ Ensure smooth integra on with the backend endpoints.
